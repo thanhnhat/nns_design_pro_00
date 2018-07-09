@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thảo Dược Hoàng Gia Phát</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/namvanchi.css" rel="stylesheet">
+    <link href="css/query.mmenu.effect.css" rel="stylesheet">
+    <link href="css/jquery.mmenu.css" rel="stylesheet">
+    <link href="css/query.mmenu.themes.css" rel="stylesheet">
+    <link href="css/system.menus.css" rel="stylesheet">
+    <link href="css/superfish.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome5.0.2/web-fonts-with-css/css/fontawesome-all.css">
+</head>
+
+<body class="html front not-logged-in no-sidebars page-node">
+    <div id="wrapper">
+        <div id="mobile-menu" class="clearfix hidden-lg">
+            <div class="container">
+                <button id="mobile-icon" class="hamburger hamburger--slider" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                        <span class="title">Menu</span>
+                </button>
+                <nav id="mobile-nav">
+                        <ul class="menu">
+                            <li class="first leaf"><a href="/" class="active">Trang chủ</a></li>
+                            <li class="leaf"><a href="/gioi-thieu">Giới thiệu</a></li>
+                            <li class="expanded"><a href="/san-pham">Sản phẩm</a>
+                                <ul class="menu">
+                                    <li class="first expanded"><a href="/nam-linh-chi" title="">Nấm Linh Chi</a>
+                                        <ul class="menu">
+                                            <li class="first leaf"><a href="/linh-chi-han-quoc" title="Linh Chi Hàn Quốc">Linh Chi Hàn Quốc</a></li>
+                                            <li class="leaf"><a href="/linh-chi-nhat-ban" title="Linh Chi Nhật Bản">Linh Chi Nhật Bản</a></li>
+                                            <li class="last leaf"><a href="/linh-chi-viet-nam" title="Linh Chi Việt Nam">Linh Chi Việt Nam</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="leaf"><a href="/nam-van-chi" title="Nấm Vân Chi">Nấm Vân Chi</a></li>
+                                    <li class="leaf"><a href="/san-pham/nam-hau-thu" title="Nấm Hầu Thủ">Nấm Hầu Thủ</a></li>
+                                    <li class="leaf"><a href="/nam-sung-huou" title="Nấm Sừng Hươu">Nấm Sừng Hươu</a></li>
+                                    <li class="leaf"><a href="/nam-thuong-hoang" title="Nấm Thượng Hoàng">Nấm Thượng Hoàng</a></li>
+                                    <li class="leaf"><a href="/sam-han-quoc" title="Sâm Hàn Quốc">Sâm Hàn Quốc</a></li>
+                                    <li class="leaf"><a href="/sam-ngoc-linh" title="Sâm Ngọc Linh">Sâm Ngọc Linh</a></li>
+                                    <li class="leaf"><a href="/dong-trung-ha-thao" title="Đông Trùng Hạ Thảo">Đông Trùng Hạ Thảo</a></li>
+                                    <li class="last leaf"><a href="/nam-lim-xanh-quang-nam" title="Nấm Lim Xanh Quảng Nam">Nấm Lim Xanh Quảng Nam</a></li>
+                                </ul>
+                            </li>
+                            <li class="leaf"><a href="/tin-tuc" title="Tin tức">Tin tức</a></li>
+                            <li class="last leaf"><a href="/he-thong-phan-phoi" title="Hệ thống phân phối">Hệ thống phân phối</a></li>
+                        </ul>		
+                </nav>
+            </div>
+        </div>
+        <div id="header" class="clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="http://thaoduochoanggia.com"><img src="http://thaoduochoanggia.com/sites/default/files/logo.png" alt="Trang chủ" title="Trang chủ"></a>
+                        </div>
+                    </div>
+                    <div class="hidden-xs hidden-sm col-md-9">
+                        <div class="region region-header">
+                            <div id="block-block-1" class="block block-block hotline">
+                                <!-- <div class="content">
+                                    <div class="number">Tổng đài tư vấn :<span>(024) 3868 1234</span></div>	
+                                </div> -->
+                                
+                            </div>
+                             <div hidden id="block-views-exp-uc-products-page-2" class="block block-views search">
+                                    <div class="content">
+                                        <form action="/tim-kiem" method="get" id="views-exposed-form-uc-products-page-2" accept-charset="UTF-8">
+                                            <div>
+                                                <div class="views-exposed-form">
+                                                    <div class="views-exposed-widgets clearfix">
+                                                        <div id="edit-title-wrapper" class="views-exposed-widget views-widget-filter-title">
+                                                            <div class="views-widget">
+                                                                <div class="form-item form-type-textfield form-item-title">
+                                                                    <input type="text" id="edit-title" name="title" value="" size="30" maxlength="128" class="form-text" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="views-exposed-widget views-submit-button">
+                                                            <input type="submit" id="edit-submit-uc-products" name="" value="Tìm" class="form-submit" />   
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>	
+                                    </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>     
+        <div id="site-menu" class="clearfix hidden-xs hidden-sm hidden-md">
+            <div class="container">
+                <div class="region region-site-menu">
+                    <div id="block-superfish-1" class="block block-superfish main-menu">
+                        <div class="content">
+                            <ul  id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-5 sf-parent-items-1 sf-single-items-4"><li id="menu-225-1" class="active-trail first odd sf-item-1 sf-depth-1 sf-no-children"><a href="/" class="sf-depth-1 active">Trang chủ</a></li><li hidden id="menu-594-1" class="middle even sf-item-2 sf-depth-1 sf-no-children"><a href="/gioi-thieu" class="sf-depth-1">Giới thiệu</a></li><li id="menu-591-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-9 sf-parent-children-1 sf-single-children-8 menuparent"><a href="/san-pham" class="sf-depth-1 menuparent">Sản phẩm</a>
+                                <ul hidden><li id="menu-755-1" class="first odd sf-item-1 sf-depth-2 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="/nam-linh-chi" title="" class="sf-depth-2 menuparent">Nấm Linh Chi</a><ul><li id="menu-614-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/linh-chi-han-quoc" title="Linh Chi Hàn Quốc" class="sf-depth-3">Linh Chi Hàn Quốc</a></li><li id="menu-592-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/linh-chi-nhat-ban" title="Linh Chi Nhật Bản" class="sf-depth-3">Linh Chi Nhật Bản</a></li><li id="menu-593-1" class="last odd sf-item-3 sf-depth-3 sf-no-children"><a href="/linh-chi-viet-nam" title="Linh Chi Việt Nam" class="sf-depth-3">Linh Chi Việt Nam</a></li></ul></li><li id="menu-617-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/nam-van-chi" title="Nấm Vân Chi" class="sf-depth-2">Nấm Vân Chi</a></li><li id="menu-666-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/san-pham/nam-hau-thu" title="Nấm Hầu Thủ" class="sf-depth-2">Nấm Hầu Thủ</a></li><li id="menu-756-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/nam-sung-huou" title="Nấm Sừng Hươu" class="sf-depth-2">Nấm Sừng Hươu</a></li><li id="menu-629-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/nam-thuong-hoang" title="Nấm Thượng Hoàng" class="sf-depth-2">Nấm Thượng Hoàng</a></li><li id="menu-618-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/sam-han-quoc" title="Sâm Hàn Quốc" class="sf-depth-2">Sâm Hàn Quốc</a></li><li id="menu-619-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><a href="/sam-ngoc-linh" title="Sâm Ngọc Linh" class="sf-depth-2">Sâm Ngọc Linh</a></li><li id="menu-620-1" class="middle even sf-item-8 sf-depth-2 sf-no-children"><a href="/dong-trung-ha-thao" title="Đông Trùng Hạ Thảo" class="sf-depth-2">Đông Trùng Hạ Thảo</a></li><li id="menu-615-1" class="last odd sf-item-9 sf-depth-2 sf-no-children"><a href="/nam-lim-xanh-quang-nam" title="Nấm Lim Xanh Quảng Nam" class="sf-depth-2">Nấm Lim Xanh Quảng Nam</a></li></ul></li><li id="menu-573-1" class="middle even sf-item-4 sf-depth-1 sf-no-children"><a href="/tin-tuc" title="Tin tức" class="sf-depth-1">Tin tức</a></li>
+                                <li  id="menu-572-1" class="last odd sf-item-5 sf-depth-1 sf-no-children"><a href="/he-thong-phan-phoi" title="LIÊN HỆ" class="sf-depth-1">LIÊN HỆ</a></li></ul>	
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div id="slideshow" class="clearfix">
+            <div class="container-fluid no-padding">
+                <div class="region region-slideshow">
+                    <div id="block-views-content-block-1" class="block block-views banner">
+                        <div class="content">
+                            <div class="view view-content view-id-content view-display-id-block_1 view-dom-id-35931dd3dda4dad1247b4af4d5429e13">
+                                <div class="view-content">
+                                    <div id="views-bootstrap-carousel-1" class="views-bootstrap-carousel-plugin-style carousel slide carousel-fade"  data-ride="carousel">
+                                        <!-- Carousel items -->
+                                        <div class="carousel-inner">
+                                            <div class="item active">    
+                                                <div class="views-field views-field-field-image">        
+                                                    <div class="field-content"><img src="http://thaoduochoanggia.com/sites/default/files/styles/slideshow/public/hoang_gia_moi1_0.jpg?itok=IENopu6T" width="1600" height="400" alt="" /></div>  
+                                                </div>      
+                                            </div>
+                                            <div class="item ">
+                                                <div class="views-field views-field-field-image">        
+                                                    <div class="field-content"><img src="http://thaoduochoanggia.com/sites/default/files/styles/slideshow/public/1366x400_1_0.jpg?itok=O8Ai4bxe" width="1600" height="400" alt="" /></div>  
+                                                </div>     
+                                            </div>
+                                            <div class="item ">     
+                                                <div class="views-field views-field-field-image">        
+                                                    <div class="field-content"><img src="http://thaoduochoanggia.com/sites/default/files/styles/slideshow/public/banner_02.jpg?itok=SHwb3fRe" width="1600" height="400" alt="" /></div>  
+                                                </div>      
+                                            </div>
+                                            <div class="item ">
+                                                <div class="views-field views-field-field-image">        
+                                                        <div class="field-content"><img src="http://thaoduochoanggia.com/sites/default/files/styles/slideshow/public/banner_01.jpg?itok=cDCd1SwJ" width="1600" height="400" alt="" /></div>  
+                                                </div>      
+                                            </div>
+                                        </div>
+                                            <!-- Carousel navigation -->
+                                        <a class="carousel-control left" href="#views-bootstrap-carousel-1" data-slide="prev">prev</a>
+                                        <a class="carousel-control right" href="#views-bootstrap-carousel-1" data-slide="next">next</a>
+                                    </div>   
+                                </div>                               
+                            </div>	
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="breadcrumb" class="clearfix">
+            <div class="container">
+                <div class="region region-breadcrumb">
+                    <div hidden id="block-block-3" class="block block-block camket">
+                        <div class="content">
+                            <div class="row wow flash hidden-xs" data-wow-delay="1s">
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="site">
+                                        <div class="fa-stack fa-2x">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-file-text fa-stack-1x fa-inverse"></i>
+                                        </div>
+                                        <div class="text-1">Đầy đủ</div>
+                                        <div class="text-2">Giấy tờ Bộ Y Tế</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="site">
+                                        <div class="fa-stack fa-2x">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-refresh fa-stack-1x fa-inverse"></i>
+                                        </div>
+                                        <div class="text-1">Hoàn tiền 200%</div>
+                                        <div class="text-2">Nếu SP kém chất lượng</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="site">
+                                        <div class="fa-stack fa-2x">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-truck fa-stack-1x fa-inverse"></i>
+                                        </div>
+                                        <div class="text-1">Giao hàng</div>
+                                        <div class="text-2">Miễn phí toàn quốc</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="site">
+                                        <div class="fa-stack fa-2x">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                                        </div>
+                                        <div class="text-1">Tư vấn</div>
+                                        <div class="text-2">Hỗ trợ 24/7</div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div id="block-block-4" class="block block-block gioithieu">
+                        <div class="content">
+                            <div class="wow fadeInUp">
+                                <div class="border1"></div>
+                                <h1 class="text1">Hoàng Gia Food</h1>
+                                <div class="text2">"Chúng tôi cam kết chỉ bán những sản phẩm chất lượng có nguồn gốc, xuất xứ rõ ràng"</div>
+                                <div class="border2"></div>
+                            </div>	
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="main" class="clearfix">
+            <div class="container">
+                <div class="row">
+                    <div id="main-content" class="col-md-12">
+                        <div class="region region-content">
+                            <div id="block-system-main" class="block block-system">
+                                <div class="content">
+                                    <div class="term-listing-heading">
+                                        <div id="taxonomy-term-8" class="taxonomy-term vocabulary-product-category">
+                                            <div class="content">
+                                                <div class="taxonomy-term-description">
+                                                    <p>
+                                                        <span style="color:#8B4513">
+                                                            <span style="font-size:14px">
+                                                                <u>Nấm Vân chi</u> là một loại nấm dược liệu đã được y học cổ truyền phương Đông sử dụng từ lâu. Sở dĩ như vậy vì nấm này có rất nhiều tác dụng dược lý, nổi bật nhất là tác dụng phòng chống ung thư. Sản phẩm được chia thành hai dạng nguyên tai và say bột giúp khách hàng có thêm sự lựa chọn phù hợp với nhu cầu sử dụng
+                                                            </span>
+                                                        </span>
+                                                    </p>
+                                                    <p><span style="font-size:14px"> LỜI CAM KẾT</span></p>
+                                                    <p> </p>
+                                                    <ul>
+                                                        <li> <p><span style="font-size:14px">Tất cả các sản phẩm Nấm Vân Chi Hoàng Gia đã qua kiểm định chất lượng của Bộ Y Tế</span></p></li>
+                                                        <li><p><span style="font-size:14px">Sản phẩm chính hãng 100%, có tem chống hàng giả của bộ công an</span></p></li>
+                                                        <li><p><span style="font-size:14px">Cam kết hoàn tiền 200% nếu khách hàng phát hiện hàng giả, hàng kém chất lượng</span></p> </li>
+                                                    </ul>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="view view-uc-products view-id-uc_products view-display-id-page_1 list-products view-dom-id-b6a2d356a21f7fbef3718f58186d448a">
+                                        <div class="view-content">
+                                            <div id="views-bootstrap-grid-1" class="views-bootstrap-grid-plugin-style">
+                                                <div class="row">
+                                                    <div class=" col-xs-6 col-sm-3">
+                                                        <div class="col">
+                                                            <div class="views-field views-field-uc-product-image">        
+                                                                <div class="field-content"><a href="/san-pham/nam-van-chi-hoang-gia-500g"><img src="http://thaoduochoanggia.com/sites/default/files/styles/uc_product_list/public/nam-van-chi-hoang-gia-500g.jpg?itok=13bQDElc" width="600" height="400" alt="" title="Nấm vân chi Hoàng Gia | 500g | Nguyên tai / Xay Bột" /></a></div>  
+                                                            </div>  
+                                                            <div class="views-field views-field-title">        
+                                                                <span class="field-content">Nấm vân chi Hoàng Gia | 500g</span>  
+                                                            </div>  
+                                                            <div class="views-field views-field-php">       
+                                                                <span class="field-content">
+                                                                    <div class="price">Giá: 1.050.000 đ	</div>
+                                                                </span>  
+                                                            </div>  
+                                                            <div class="views-field views-field-field-old-price">        
+                                                                <div class="field-content"></div>  
+                                                            </div>			
+                                                        </div>
+                                                    </div>
+                                                    <div class=" col-xs-6 col-sm-3">
+                                                        <div class="col">              
+                                                            <div class="views-field views-field-uc-product-image">        
+                                                                <div class="field-content"><a href="/san-pham/nam-van-chi-hoang-gia-100g"><img src="http://thaoduochoanggia.com/sites/default/files/styles/uc_product_list/public/vanchi.jpg?itok=LcntUeZt" width="600" height="400" alt="" title="Nấm vân chi Hoàng Gia | 100g | Nguyên Tai/ Xay Bột" /></a></div>  
+                                                            </div>  
+                                                            <div class="views-field views-field-title">        
+                                                                <span class="field-content">Nấm vân chi Hoàng Gia | 100g</span>  
+                                                            </div>  
+                                                            <div class="views-field views-field-php">        
+                                                                <span class="field-content">
+                                                                    <div class="price"> Giá: 220.000 đ</div>
+                                                                </span> 
+                                                            </div>  
+                                                            <div class="views-field views-field-field-old-price">        
+                                                                <div class="field-content"></div>  
+                                                            </div>			
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </div>	
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="footer" class="clearfix">
+            <div class="container">
+                <div class="region region-footer">
+                    <!-- <div id="block-block-6" class="block block-block gioithieu2 col-xs-12">
+                        <h2 class="block-title"><span>Về chúng tôi</span></h2>
+                        <div class="content">
+                            <div>
+                                <p>Công ty Cổ phần Thực Phẩm Dinh Dưỡng Hoàng Gia là một trong những công ty sản xuất và kinh doanh thực phẩm chức năng uy tín hàng đầu Việt Nam, nổi tiếng với các sản phẩm về Nấm Dược Liệu, đã được Bộ Y Tế cấp giấy phép đủ điều kiện vệ sinh an toàn thực phẩm , đạt chứng nhận ISO 9001:2008, là một trong 50 thương hiệu dẫn đầu Việt Nam và là một thương hiệu thực phẩm uy tín do người tiêu dùng bình chọn.</p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div id="block-block-5" class="block block-block address col-xs-12 col-sm-12 col-md-8">
+                        <div class="content">
+                            <div class="logo-footer"><img src="http://thaoduochoanggia.com/sites/default/files/logo.png" /></div>
+                            <div class="row">
+                                <!-- <div class="col-sm-5 col-xs-12">
+                                    <ul>
+                                        <li>
+                                            <div class="city">
+                                                TP. Hồ Chí Minh
+                                                <div class="bis">
+                                                    Địa chỉ: 56 Tôn Thất Tùng, Quận 1, Tp.HCM<br>Email: hcm@thaoduochoanggia.com
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="city">
+                                                TRỤ SỞ HÀ NỘI
+                                                <div class="bis"> Địa chỉ: 106 Phố Yên Lạc (529 Kim Ngưu), Q.Hai Bà Trưng, Hà Nội<br>Email: hanoi@thaoduochoanggia.com</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="city">
+                                                TỔNG ĐÀI TƯ VẤN & ĐẶT HÀNG
+                                                <div class="bis">
+                                                    Dược sỹ tư vấn : (024) 3868 1234 <br>
+                                                    Hotline toàn quốc : 0942 880 990 <br>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div> -->
+                                <div class="col-sm-7 col-xs-12">
+                                    <div class="lamviec">
+                                        <p style="font-weight: bold; color: #fff;">Thời gian làm việc:</p>
+                                        <p>Từ 07h:30 - 21h:00</p>
+                                        <p>Cửa hàng mở cửa cả ngày lễ và chủ nhật</p>
+                                        <!-- <p style="font-weight: bold; color: #fff;">Các chi nhánh khác trên toàn quốc:</p>
+                                        <p>16 Trần Phú, Q. Hải Châu, Đà Nẵng
+                                        <p>138 Đồng Khởi, P. Tân Hiệp, TP. Biên Hòa
+                                        <p>79 Đội Cấn, Phường Lộc Sơn, Lâm Đồng
+                                        <p>254 Đường Bacu, Phường 3, Tp.Vũng Tàu
+                                        <p>78, TDC số 1, TT Như Quỳnh, Hưng Yên
+                                        <p>65 Lê Lợi, TP. Đông Hà, Quảng Trị -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div hidden id="block-block-9" class="block block-block col-xs-12 col-sm-12 col-md-4">
+                        <h2 class="block-title"><span>Chính sách chung</span></h2>
+                        <div class="content">
+                            <p><span style="font-size:12px">HOTLINE PHỤC VỤ KHÁCH HÀNG 24/7</span></p>
+                            <p><span style="font-size:12px">MIỄN PHÍ GIAO HÀNG TOÀN QUỐC</span></p>
+                            <p><span style="font-size:12px">NHẬN HÀNG TRƯỚC THANH TOÁN TIỀN SAU</span></p>
+                            <p><span style="font-size:12px">SẢN PHẨM KÉM CHẤT LƯỢNG HOÀN TIỀN 300%</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="http://thaoduochoanggia.com/sites/all/libraries/owl-carousel/owl.carousel.min.js?pb74qw"></script>
+        <script type="text/javascript" src="http://thaoduochoanggia.com/sites/all/modules/owlcarousel/includes/js/owlcarousel.settings.js?pb74qw"></script>
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+    </div>
+
+</body>
+</html>
